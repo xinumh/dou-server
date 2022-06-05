@@ -1,6 +1,8 @@
 import book from './book'
+import user from './user'
 
-const routes = [book]
+
+const routes = [book, user]
 
 export default function (app) {
   routes.forEach((route) => {
